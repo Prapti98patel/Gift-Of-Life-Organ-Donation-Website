@@ -1,0 +1,140 @@
+/* Body */
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:#f4fff6;
+}
+
+
+/* Sidebar */
+
+.sidebar{
+    width:230px;
+    height:100vh;
+    background:#2e8b57;
+    position:fixed;
+    padding-top:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    color:white;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    padding:14px 20px;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.sidebar a:hover{
+    background:#1f6f45;
+}
+
+
+/* Main Content */
+
+.content{
+    margin-left:240px;
+    padding:30px;
+}
+
+
+/* Dashboard Cards */
+
+.dashboard{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:200px;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h3{
+    margin:0;
+    color:#2e8b57;
+}
+
+.card p{
+    font-size:26px;
+    font-weight:bold;
+}
+
+
+/* Tables */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background:white;
+}
+
+table th{
+    background:#2e8b57;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+    background:#f1fff4;
+}
+
+
+/* Form */
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    margin-top:10px;
+    padding:10px 15px;
+    border:none;
+    background:#2e8b57;
+    color:white;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+button:hover{
+    background:#1f6f45;
+}
+
+
+/* Login Page */
+
+.login-box{
+    width:320px;
+    margin:120px auto;
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2{
+    color:#2e8b57;
+}
